@@ -1,6 +1,30 @@
-# Daily Reflection Tree — Submission
+# Daily Reflection Tree Agent
 
-## DT Fellowship Assignment | DeepThought Growth Teams
+A deterministic end-of-day reflection system built using a structured decision tree and a standalone web-based AI agent.
+
+### Key Highlights
+- 37-node decision tree across 3 psychological axes
+- Fully deterministic (same input → same output)
+- No LLM calls at runtime → zero hallucination risk
+- Built for real user reflection, not just evaluation
+
+# Why this is different
+
+- Most AI agents rely on LLMs → this system avoids them entirely
+- Reflection is created *during questions*, not just at the end
+- Branching adapts to user state (good day vs bad day)
+- Designed with behavioral psychology, not just logic# Daily Reflection Tree — Submission
+
+## How to test (30 seconds)
+
+1. Open `agent/index.html`
+2. Click through the reflection
+3. Notice:
+   - No randomness
+   - Deterministic branching
+   - Personalized summary based on answers
+
+# DT Fellowship Assignment | DeepThought Growth Teams
 
 ---
 
@@ -105,4 +129,4 @@ The tree has **16 distinct paths** through it. All converge at the same summary 
 
 ---
 
-*Built with: Claude as research and drafting collaborator. Tree structure, question design, branching logic, and tone calibration designed by the author.*
+This is not just a tree. It's a structured way of thinking about your day.
